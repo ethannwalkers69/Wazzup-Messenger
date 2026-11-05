@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0F172A"><meta name="description" content="Wazzup Messenger — your people, one conversation.">
+  <title>Wazzup Messenger</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="landing-page">
+<header class="topbar" id="topbar"><a class="brand" href="/">w<span>·</span>azzup</a><nav><a href="#features">Features</a><a href="#faq">FAQ</a><a class="btn btn-primary" href="/app">Open messenger</a></nav></header>
+<main>
+<section class="hero reveal">
+  <div class="hero-copy"><span class="eyebrow">GROUP CHAT, MADE SIMPLE</span><h1>Your people.<br><span class="gradient-text">One conversation.</span></h1><p>A calm, simple place to catch up, share moments, and keep every group connected.</p><div class="hero-actions"><a class="btn btn-primary" href="/app">Get started <span>↗</span></a><a class="text-link" href="#features">Explore features ↓</a></div><div class="social-proof"><div class="avatar-stack"><i>J</i><i>M</i><i>A</i><i>+</i></div><span>Made for the conversations that matter.</span></div></div>
+  <div class="hero-art"><div class="blob blob-one"></div><div class="blob blob-two"></div><div class="chat-preview"><div class="preview-head"><span class="online-dot"></span><div><b>Weekend Crew</b><small>8 members · active now</small></div><span class="more">•••</span></div><div class="preview-msg"><i class="mini-avatar">M</i><div><small>Mia</small><p>Are we still on for Saturday? ✨</p></div></div><div class="preview-msg own"><div><small>You</small><p>Absolutely. Can't wait!</p></div></div><div class="preview-msg"><i class="mini-avatar purple">A</i><div><small>Alex</small><p><span class="fake-image"></span><small>That place looks perfect 📍</small></p></div></div><div class="preview-compose">Message the group… <span>↑</span></div></div></div>
+</section>
+<section id="features" class="section reveal"><div class="section-heading"><span class="eyebrow">THE GOOD STUFF</span><h2>Everything your group needs.<br><span class="muted">Nothing it doesn't.</span></h2></div><div class="feature-grid"><article class="feature-card"><span class="feature-icon">✳</span><h3>Groups that feel close</h3><p>Create a space for friends, family, teams, and every circle in between.</p></article><article class="feature-card"><span class="feature-icon">↗</span><h3>Share the moment</h3><p>Send photos, reply to a message, and react with a little personality.</p></article><article class="feature-card"><span class="feature-icon">⌘</span><h3>Keep it in good hands</h3><p>Group admins keep things organized, with simple member controls.</p></article></div></section>
+<section class="stats reveal"><div><strong data-count="3">0</strong><span>simple steps to connect</span></div><div><strong data-count="24">0</strong><span>hours, every day</span></div><div><strong data-count="0">0</strong><span>noise, just your people</span></div></section>
+<section id="faq" class="section faq-section reveal"><div class="section-heading"><span class="eyebrow">GOOD TO KNOW</span><h2>A few quick answers.</h2></div><div class="faq-list"><details><summary>Is Wazzup Messenger free?</summary><p>Yes. Core group messaging is free. Premium is an account flag managed by the Leader in this version.</p></details><details><summary>Can I create a group?</summary><p>Yes. Create a group, invite existing Wazzup users by email, and manage your group members.</p></details><details><summary>Does it update instantly?</summary><p>Messages refresh automatically about every three seconds. Real-time WebSockets can be added later.</p></details></div></section>
+</main>
+<footer><a class="brand" href="/">w<span>·</span>azzup</a><span>Keep your people close.</span><span>© <span id="year"></span> Wazzup Messenger</span></footer>
+<div class="toast-region" id="toastRegion" aria-live="polite"></div>
+<script type="module" src="/js/landing.js"></script>
+</body></html>
